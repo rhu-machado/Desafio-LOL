@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:  url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+}
+
+.login{
+    border: solid 1px red;
+}
+
+.logo{
+    border: solid 1px;
+    width: 25%;
+    height: 25vh;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 15vw;
+}
+
+.boxForm{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+}
+
+.boxForm div{
+    width: 70%;
+    margin:5px;
+    padding: 3px 0 0 8px;
+    border-radius: 5px;
+    background-color: rgb(218, 214, 214);
+}
+
+div label{
+    font-size: 1.1vw;
+}
+
+div input{
+    background-color: rgb(218, 214, 214);
+    border: none;
+    width: 98%;
+}
+
+.check{
+    margin: 10px;
+}
+
+fieldset{
+    border :none;
+    margin-top:  10px;
+}
+
+legend{
+    text-align: center;
+}
+
+.conta{
+    margin-left: 5px;
+}
+
+button{
+    margin:2% 0% 1% 2%;
+    width: 5vw;
+    border:none;
+    border-radius: 3px;
+}
+
+.facebook{
+    background-color: #2051FF;
+}
+.google{
+    background-color: #8A0000;
+}
+.apple{
+    background-color:black;
+}
+
+button img{
+    width: 1.5vw;
+    padding-top: 4px;
+}
+
+.seta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 30vh;
+    border: solid 1px;
+}
+.seta button{
+    background-color: #FF002E;
+    width: 4vw;
+    height: 8vh;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #A6A6A6;
+    text-decoration: none;
+}
+
+.imgLol{
+    width: 74vw;
+    height: 92vh;
+    background-image: url(https://s3-alpha-sig.figma.com/img/e9c0/39a5/2a825525796f33f013ad28fad9066815?Expires=1658102400&Signature=R-Wcot8yVVNogViTR04lFObQPJnRMr-F1z41Cnu-PaqR4Mgez7F2sOqnQRs49EZp2tUDZf-mS1-98IkGuZR3Pb4nJibXLwthmwNqLiZoeDmiYfhnprj4l9CeoJWml2RuEVQosqE30G-sqaGLQz5joq8kUrK6lxKD1YKkZQPOvLukos9imdWgYRW5ZEQTgXoWnqN4V6sMx1NCgKaj6FE8ufkZS6U0DyEpgv3gmCZrmaS3mLkltMILpFDu-TyxWcTX8oKnLMZyZhSFTtu-x1fO~Yv~WARKTrd5s3oyFRk4xRiGvLKAMC93GMAisgKtCjgVjmn8VR2efcWPWyOEKmUHRA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    border:solid purple 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    top:-45vw;
+    right: -25%;
+}
+
+main{
+    border:solid 1px yellow;
+    height: 100vh;
+}
