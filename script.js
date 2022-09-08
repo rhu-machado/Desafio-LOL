@@ -1,12 +1,10 @@
 const inputs = document.querySelectorAll('.form');
-//arrey com dois elementos, precisa tmabém adicionar um event listener para rastrear a mudança do input e ativar a função//
-const button = document.querySelector('.login_button');
+const button = document.querySelector('.send');
 
 const handleFocus = ({target})=>{
     const span = target.previousElementSibling;
     span.classList.add('span-active')
 }
-//desestruturar o target para hegar no span, que é o objeto que queremos usar//
 
 const handleFocusOut = ({target})=>{
     if(target.value === ''){
